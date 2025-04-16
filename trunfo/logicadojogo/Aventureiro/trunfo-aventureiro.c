@@ -118,7 +118,6 @@ void comparar() {
 
 
 int main() {
-  // Cálculos corretos
   densidade1 = populacao1 / areakm1;
   densidade2 = populacao2 / areakm2;
 
