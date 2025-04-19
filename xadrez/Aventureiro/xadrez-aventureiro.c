@@ -28,7 +28,24 @@ int main() {
         esquerda
         casas_andadas_rainha++;
     } while (casas_andadas_rainha< 8);
+
+    // cavalo, anda em L, dois baixo, um esquerda
+    printf("\nMovimento do Cavalo: \n");
+    for(int cavalobaixo = 0; cavalobaixo < 2; cavalobaixo++){
+        baixo
+        if(cavalobaixo == 1){
+            // Não faço ideia se é pra fazer assim (usando um if pra conter um do while),
+            // mas foi a melhor coisa que pensei tentando fazer.
+            // Se não tivesse o "if" a saida ia ser "Baixo" "Esquerda" "Baixo" "Esquerda".
+            // Ao meu professor, se estiver errado, por favor, abra uma "Issue" no repositório do GitHub. 
+            int cavaloesquerda = 0;
+                do {
+                    esquerda
+                    cavaloesquerda++;
+            } while(cavaloesquerda < 1);
+        }
+    };
     
     return 0;
-}
+}\
 
